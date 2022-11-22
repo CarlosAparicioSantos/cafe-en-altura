@@ -1,0 +1,38 @@
+body {
+    padding: 0; 
+    margin: 0;
+}
+header {
+    width: 1200px;
+    height: 64px;
+    background-color: #2B2A2B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    color: white;
+    font-family: "Outfit";
+}
+
+div.header {
+    margin: 10px
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.caffe {
+    font-size: 18.2px;
+    line-height: 35.19px;
+    width: 170px;
+    /* height: 36px; */
+    opacity: 86%;
+}
+
+button {
+    width: 82px;
+    height: 20px;
+    top: 12px;
+    left: 24px;
+    font-size: 11.3px;
+}
