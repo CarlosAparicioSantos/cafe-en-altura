@@ -2,9 +2,15 @@ body {
     padding: 0; 
     margin: 0;
     font-family: "Outfit";
+    height: 3480px;
+    width: 1280px;
+    left: -21805px;
+    top: -19555px;
+    border-radius: 0px;
 }
+
 header {
-    width: 1200px;
+    width: 1280px;
     height: 64px;
     background-color: #2B2A2B;
     display: flex;
@@ -17,45 +23,224 @@ header {
 }
 
 div.header {
-    margin: 10px;
-    display: inline-block;
+    display: flex;
     color: #FFFFFF;
+    justify-content: space-between;
 }
 
-.caffe {
-    font-size: 18.2px;
-    line-height: 35.19px;
-    width: 170px;
-    /* height: 36px; */
-    opacity: 86%;
+div.caffe {
+    font-size: 23.4628px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7.33px;
+    width: 213.86px;
+    height: 36px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+div.barra {
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 512px;
+    height: 32px;
+}
+div.tel2 {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    gap: 24px;
+    flex-wrap: nowrap;
+    width: 288px;
+    height: 40px;
+}
+
+div.icon {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    border: 2px;
+    text-decoration: solid;
 }
 
 button.inicio {
-    width: 82px;
-    height: 20px;
-    top: 12px;
-    left: 24px;
-    font-size: 11.3px;
+    background-color: #515051;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 130px;
+    height: 40px;
 }
+
 section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 40px;
+    gap: 8px;
     width: 1280px;
     height: 486px;
-    background-color: white;
+    background: rgba(227, 222, 215, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.section {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1280px;
+    height: 480px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.div1 {
-    text-align:left;
-    margin: 40px 127px;
+div.div1 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 588px;
+    height: 232px;
 
 }
-.div2 {
-
+h3 {
+    margin: 0;
+    width: 588px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2A5B45;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
+
+h1 {
+    margin: 0;
+    width: 588px;
+    height: 88px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: #000000;
+}
+
+p.div1 {
+    margin: 0;
+    width: 588px;
+    height: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111827;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+div.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 321px;
+    height: 40px;
+}
+
 button.descubrir {
-
+    display: flex;
+    justify-content: center;
+    font-family: "outfit";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    font-style: normal;
+    color: #FEFFF5;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 168px;
+    height: 40px;
+    background: #1F1815;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
 }
+
 button.comprarcafe {
-
+    display: flex;
+    justify-content: center;
+    font-family: "outfit";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    font-style: normal;
+    color: #FEFFF5;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 168px;
+    height: 40px;
+    background: #2A5B45;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
+div.div2 {
+    width: 588px;
+    height: 390px;
+    background: url(/cafe-en-altura/assets/images/Hero\ image.jpg), #FEFFF5;
+    border-radius: 20px;
+}
