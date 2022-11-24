@@ -538,4 +538,12 @@ button.añadir:hover{
     border-radius: 8px;
     cursor: pointer;
 }
+
+div.vertodos {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    font-size: 10px;
+    text-decoration: black;
+}
 /* Aqui empieza el cuerpo 4 de la web */
