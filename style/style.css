@@ -183,11 +183,12 @@ p.div1 {
 
 div.buttons{
     display: flex;
+    font-size: 10px;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    width: 321px;
+    width: 325px;
     height: 40px;
 }
 
@@ -195,7 +196,9 @@ button.descubrir {
     display: flex;
     justify-content: center;
     font-family: "outfit";
+    text-decoration: none;
     font-size: 12px;
+    font-style: normal;
     font-weight: 600;
     line-height: 16px;
     font-style: normal;
@@ -354,3 +357,185 @@ h2>div.section2 {
     
 }
 /* Aqui empieza el cuerpo 3 de la web */
+section.sect3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    width: 1280px;
+    height: 603.39px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    background-color: #FFFFFF;
+}
+
+div.titulosect3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.coffes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1200px;
+    height: 391.39px;
+    display: flex;
+    
+    
+}
+
+#tiposcafe1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+}
+
+#tiposcafe2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+}
+
+#tiposcafe3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+}
+
+#tiposcafe4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+}
+
+button.añadir {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 60px;
+    height: 32px;
+    background: rgba(42, 91, 69, 0.7);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    font-style: normal;
+    font-family: "Outfit";
+    text-decoration: none;
+    color: white;
+}
+
+button.añadir:hover{
+    background: #2A5B45;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#tiposcafe1:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    background: #F7F5F3;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#tiposcafe2:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    background: #F7F5F3;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#tiposcafe3:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    background: #F7F5F3;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#tiposcafe4:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    width: 282px;
+    height: 391.39px;
+    background: #F7F5F3;
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Aqui empieza el cuerpo 4 de la web */
