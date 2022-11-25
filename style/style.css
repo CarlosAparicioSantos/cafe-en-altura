@@ -74,7 +74,7 @@ div.tel2 {
     align-items: center;
     padding: 0px;
     margin: 0px;
-    gap: 24px;
+    gap: 11px;
     flex-wrap: nowrap;
     width: 288px;
     height: 40px;
@@ -440,7 +440,7 @@ button.añadir {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 8px;
     gap: 8px;
     width: 60px;
@@ -451,9 +451,11 @@ button.añadir {
     font-weight: 600;
     line-height: 16px;
     font-style: normal;
+    text-align: center;
     font-family: "Outfit";
     text-decoration: none;
     color: white;
+    border: none;
 }
 
 button.añadir:hover{
@@ -535,3 +537,19 @@ div.vertodosimg {
     padding-left: 19px;
 }
 /* Aqui empieza el cuerpo 4 de la web */
+section.sect4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 1280px;
+    background: #2A5B45;
+}
+div.section4 > h2 {
+    text-align: center;
+}
+div.FAQ {
+    flex-direction: column;
+    background-color: white;
+    gap: 20px;
+}
